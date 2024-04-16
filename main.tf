@@ -5,6 +5,16 @@ provider "aws" {
 }
 
 
+variable "aws_access_key" {
+  type = string
+  default = ""
+}
+
+variable "aws_secret_key" {
+  type = string
+  default = ""
+}
+
 resource "aws_s3_bucket" "aws_bucket_env012" {
   bucket = "aws_bucket_env012"
   tags = {
