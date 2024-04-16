@@ -23,5 +23,5 @@ resource "aws_s3_bucket" "aws-bucket-env012" {
 }
 
 output "bucket_name" {
-  value = aws_s3_bucket.aws_bucket_env012.bucket
+  value = aws_s3_bucket.aws-bucket-env012.bucket
 }
