@@ -15,8 +15,8 @@ variable "aws_secret_key" {
   default = ""
 }
 
-resource "aws_s3_bucket" "aws_bucket_env012" {
-  bucket = "aws_bucket_env012"
+resource "aws_s3_bucket" "aws-bucket-env012" {
+  bucket = "aws-bucket-env012"
   tags = {
     Name = "env0bucketaws12"
   }
