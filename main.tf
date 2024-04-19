@@ -24,5 +24,5 @@ resource "aws_s3_bucket" "aws-bucket-env012" {
 
 output "bucket_name" {
   value = aws_s3_bucket.aws-bucket-env012.bucket
-  sensitive = true
+
 }
